@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  /* font-family: 'Francois One', sans-serif; */
+}
+
+/* ============================add new train list button========================= */
+/*close button*/
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 33px;
+  background-color: #cacfe7;
+  border-radius: 0.5rem;
+  outline: none;
+  border: #dddddd;
+  font-family: cursive;
+}
+
+/* Define styles for the popup form and overlay */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(19, 19, 19, 0.7);
+  z-index: 1;
+}
+
+.popup-overlay1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(19, 19, 19, 0.7);
+  z-index: 1;
+}
+
+.popup-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: 35rem;
+  border-radius: 0.8rem;
+  text-align: left;
+}
+
+/* Style for the background image */
+body {
+  background-image: url('your-background-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Style for the form fields */
+.form-field {
+  margin: 10px 0;
+}
+
+/* Style for the submit button */
+.submit-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: .7rem;
+  outline: none;
+  border: none;
+}
+
+.submit-button:hover {
+  background: rgb(34, 67, 255);
+  box-shadow: 2px 6px 8px 2px rgba(160, 120, 252, 0.344);
+}
+
+input:focus {
+  border: 1px solid rgb(192, 192, 192);
+}
+
+h2 {
+  color: #007BFF;
+}
+
+/* Additional CSS for form elements */
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* =====================Side navigation Bar========================= */
+
+
+.Administrator {
+
+  width: -webkit-fill-available;
+  height: 70px;
+  position: absolute;
+  left: 250px;
+  top: 0;
+  background-color: #dcd8d9;
+  font-size: 40px;
+  text-align: center;
+  line-height: 100px;
+  flex-shrink: 0;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 16.4%;
+  height: 100%;
+  background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
+  font-family: 'Francois One', sans-serif;
+
+}
+
+span .IMAGINE {
+  color: aqua;
+}
+
+.sidebar header {
+
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  /* background: black; */
+  user-select: none;
+}
+
+.LOGO_ADMIN {
+  font-family: 'Courgette', cursive;
+}
+
+
+.sidebar .DATE {
+  background: rgba(47, 59, 65, 1);
+  line-height: 50px;
+}
+
+.sidebar .SUPPORT_STAFF {
+  margin-top: 35px;
+  margin-bottom: 28px;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  line-height: 55px;
+
+
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  margin-bottom: 13px;
+
+
+}
+
+/* ========Buttons color============= */
+
+.Home {
+
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Feedback {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Route {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Train_List {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Schedule_List {
+  background-color: rgb(62, 147, 195, 1);
+}
+
+.Reservation_List {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.USERS {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Logout {
+  background-color: rgba(47, 59, 65, 1);
+
+}
+
+.Feedback {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Route {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Train_List {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Schedule_List {
+  background-color: rgba(62, 147, 195, 1);
+}
+
+.Reservation_List {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.USERS {
+  background-color: rgba(47, 59, 65, 1);
+}
+
+.Logout {
+  background-color: rgba(47, 59, 65, 1);
+
+}
+
+
+/* ========Buttons hover color============= */
+
+
+
+
+.sidebar ul li :hover {
+
+  background-color: rgba(62, 147, 195, 1);
+}
+
+/* ======================Blue bar==================== */
+
+.Add_Schedule {
+  display: flex;
+  width: 80.4%;
+  height: 47px;
+  position: absolute;
+  left: 270px;
+  top: 155px;
+  background-color: rgba(62, 147, 195, 1);
+  /* text-align: center; */
+  /* line-height: 100px; */
+  flex-shrink: 0;
+  justify-content: space-between;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: 31px;
+  line-height: 57px;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+button {
+  background: rgba(48, 91, 115, 1);
+  color: white;
+  font-size: 19px;
+  /* font-weight: 700; */
+  font-family: 'Francois One', sans-serif;
+}
+
+.ADD_NEW_Schedule {
+  border-radius: 4px;
+  height: 40px;
+  width: 179px;
+  margin-top: 3px;
+  margin-right: 10px;
+
+
+
+}
+
+.cc1 {
+  margin: 10px;
+  line-height: 30px;
+}
+
+
+
+/* ============================Table========================= */
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 800px;
+  font-family: 'Francois One', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+  /* Adjust the width as needed */
+
+  text-align: center;
+  margin-left: 17%;
+  margin-top: 15%;
+  /*This is where the move the table from left side*/
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  padding: 10px;
+}
+
+.EDIT {
+
+  background-color: rgba(62, 147, 195, 1);
+
+
+}
+
+.DELETE {
+
+  background-color: red;
+
+}

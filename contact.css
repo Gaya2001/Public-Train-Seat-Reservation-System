@@ -1,0 +1,112 @@
+html {
+  font-size: 42.5%;
+}
+
+.anu-innerBackground {
+    background-image: url('Main_banner.jpg');
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .co {
+    margin-top: 55px;
+    margin-left: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 90%;
+    /* margin: auto; */
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+  .listOfContacts {
+    margin-top: 120px;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center; 
+ }
+  .right-div {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+
+  .left-div{
+    margin-top: 54px;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.4);
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.anu-Main .anu-Header {
+  box-sizing: border-box;
+  padding: 1.7rem 65.1rem 1.2rem 2.2rem;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(136, 136, 136, 0.5);
+  flex-shrink: 0;
+}
+
+.anu-Main .anu-Header  {
+  margin-right: 18.5rem;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.21;
+  color: #3e93c2;
+  font-family: Irish Grover, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.Logo {
+  color: rgba(62, 147, 195, 1);
+  font-size: 40px;
+  font-family: 'Courgette', cursive;
+
+
+
+}
+
+.SEATS {
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+
+.anu-Home,
+.anu-Contact,
+.anu-AboutUs {
+  color: white;
+  font-size: 3rem;
+  margin-left: 22%;
+}
+
+.mapouter {
+  position: relative;
+  /* text-align:right; */
+  height: 400px;
+  width: 100%;
+  /* float:right; */
+
+}
+
+
+.gmap_convas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 100%;
+}

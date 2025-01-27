@@ -1,0 +1,434 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+/* =====================sections scales=============== */
+
+
+.section1 {
+
+    background-image: url(/images/Main_banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Class_Selection,
+section1 {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.Summary_Box {
+    margin-top: 275px;
+    height: 100vh;
+    width: 100%;
+}
+
+.section5 {
+    position: relative;
+    top: 1438px;
+}
+
+
+/* ======================navigation Bar====================== */
+
+
+
+
+.Head {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.Logo {
+    color: rgba(62, 147, 195, 1);
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+
+
+
+}
+
+.SEATS {
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+
+.Head ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+.Head ul li a {
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.ul li a {
+    font-size: 40px;
+}
+
+
+
+
+ul li a:hover {
+    border-bottom: 3px solid white;
+    transition: .3s
+}
+
+.Btn {
+    border: none;
+    background-color: rgba(62, 147, 195, 1);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.content {
+    width: 1200px;
+    margin-top: 11%;
+    margin-left: 4%;
+    color: white;
+    position: relative;
+    font-size: 45px;
+
+
+}
+
+.Your {
+    color: rgba(62, 147, 195, 1);
+}
+
+.Seat_book {
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: aliceblue;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    transition: .3s ease;
+
+}
+
+.Seat_book:hover {
+    background-color: rgba(62, 147, 195, 1);
+    border-color: rgba(62, 147, 195, 1);
+}
+
+
+/* =====================Class_Selection====================== */
+
+.Class_Selection {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 98%;
+    padding: 10px;
+
+}
+
+
+.Class_Selection h1 {
+    text-align: center;
+    font: size 30px;
+    color: #2371e0;
+    font-size: 50px;
+
+}
+
+
+.Class_Selection .form {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+
+.Class_Selection .form .form-input {
+    width: 32%;
+
+}
+
+
+.Class_Selection .form .form-input input {
+    display: none;
+
+}
+
+.Class_Selection .form .form-input label {
+    display: block;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px 2px #ddd;
+}
+
+.Class_Selection .form .form-input label .title {
+
+    font-size: 18px;
+    color: #2371e0;
+    font-weight: 600;
+}
+
+
+.Class_Selection .form .form-input label .price {
+
+    font-size: 40px;
+    color: #2371e0;
+    font-weight: 600;
+    margin: 10px 0px 2px;
+    color: #222;
+}
+
+.Class_Selection .form .form-input label p {
+
+    font-size: 15px;
+    color: #888;
+}
+
+.Class_Selection .form .form-input label .desc {
+
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+.Class_Selection .form .form-input label:hover {
+
+    border: 1px solid #2371e0;
+}
+
+
+.Class_Selection .form .form-input input:checked+label {
+
+    background: #2371e0;
+}
+
+.Class_Selection .form .form-input input:checked+label .title {
+
+    color: #eee;
+}
+
+.Class_Selection .form .form-input input:checked+label .price {
+
+    color: #eee;
+}
+
+.Class_Selection .form .form-input input:checked+label p {
+
+    color: #ddd;
+}
+
+.Class_Selection .form .form-input input:checked+label .desc {
+
+    color: #eee;
+}
+
+
+
+/* ======================Summary section==================== */
+
+
+
+ul li {
+    list-style: none;
+}
+
+.Summary_Header {
+    position: relative;
+    left: -10px;
+
+    background: #222;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    width: 102%;
+    margin-bottom: 5px;
+}
+
+
+.box {
+    width: 800px;
+    height: 670px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.box h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box p {
+
+    margin-bottom: 5px;
+    font-size: 30px;
+    padding: 18px;
+}
+
+.summary {
+    background-color: #ccc;
+    text-align: center;
+
+
+}
+
+.Summary_Box ul li {
+    text-align: left;
+    font-size: 25px;
+    padding: 17px;
+    margin-left: 19px;
+}
+
+span {
+    color: #2371e0;
+}
+
+.forward-train {
+    margin-top: 70px;
+
+}
+
+.price-details {
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+}
+
+.total_price {
+    margin-top: 10px;
+
+    width: 50%;
+    background-color: #ccc;
+    display: inline-block;
+}
+
+
+.checkout {
+    position: relative;
+    left: 156px;
+    bottom: -3px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #2371e0;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================Footer section ==========================*/
+
+
+
+
+
+
+
+.container_Footer {
+    max-width: 1170px;
+    background-color: rgba(62, 147, 195, 1);
+    margin: auto;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+
+}
+
+.footer-col img {
+
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col .Socials li {
+
+    display: inline-block;
+
+}

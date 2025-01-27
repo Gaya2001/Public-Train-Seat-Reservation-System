@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="RegisterPage_Local.css">
+
+</head>
+
+<body>
+
+
+    <div class="section1">
+        <div class="Head">
+
+            <h1 class="Logo">IMAGINE <span class="SEATS">SEATS</span></h1>
+
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Home.html">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="Home.html">About Us</a></li>
+            </ul>
+            <button type="button" class="Btn">My Account</button>
+        </div>
+        <div class="auto-group-pry7-xV7">
+            <div class="group-5-gR7">
+                <p class="embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-p1X">
+                    <span
+                        class="embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-p1X-sub-0">Embark
+                        on Your Journey with Us </span>
+                    <span
+                        class="embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-p1X-sub-1">Securely</span>
+                    <span class="embark-on-your-journey-with-us-securely-book-your-next-travel-adventure-p1X-sub-2">
+                        Book Your Next Travel Adventure!</span>
+                </p>
+                <p class="effortless-booking-for-seamless-travel-experiences-b4D">
+                    &#34;Effortless Booking for Seamless Travel Experiences&#34;
+                    <br />
+
+                </p>
+            </div>
+            <div class="reg-box">
+                <p class="reg">Registration</p>
+                <form method="post" action="Register.php">
+                    <div class="cc1">
+                        <input type="radio" id="Local" value="Local" name="user_type" checked>
+                        <label class="lable2">Local</label>
+                    </div>
+                    <div class="cc1">
+                        <input type="radio" id="tourist" value="Tourist" name="user_type">
+                        <label class="lable1">Tourist</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="first_name" placeholder="Enter your first name" required>
+                        <input type="text" name="last_name" placeholder="Enter your last name" required>
+                        <input type="number" name="mobile_number" placeholder="Enter your mobile number" required>
+
+                        <div id="myid1" style="display: block;">
+                            <input type="number" name="nic_number" placeholder="Enter Your NIC Number">
+                        </div>
+
+                        <div id="myid2" style="display: none;">
+                            <input type="number" name="passport_number" placeholder="Enter Your Passport Number">
+                        </div>
+
+                        <input type="email" name="email" placeholder="Enter your Email" required>
+                        <input type="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="cc">
+                        <input type="submit" class="reg-button" id="registerButton" value="Register" name="submit">
+                    </div>
+                    <p class="back-log">
+                        <span>Already have an account? </span>
+                        <label>
+                            <a class="login-ancer" href="Login_Page.html">Login</a>
+                            <br />
+                        </label>
+                    </p>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="RegisterPage.js"></script>
+</body>
+
+</html>

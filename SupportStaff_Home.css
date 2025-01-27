@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/* =====================Side navigation Bar========================= */
+
+
+.Administrator {
+
+    width: 83.7%;
+    height: 70px;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: #dcd8d9;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 16.4%;
+    height: 100%;
+    background-image: url("/images/Screenshot\ 2023-10-08\ 023753.png");
+    font-family: 'Francois One', sans-serif;
+
+}
+
+span .IMAGINE {
+    color: aqua;
+}
+
+.sidebar header {
+
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    /* background: black; */
+    user-select: none;
+}
+
+.LOGO_ADMIN {
+    font-family: 'Courgette', cursive;
+}
+
+
+.sidebar .DATE {
+    background: rgba(47, 59, 65, 1);
+    line-height: 50px;
+}
+
+.sidebar .SUPPORT_STAFF {
+    margin-top: 50px;
+    margin-bottom: 55px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    line-height: 55px;
+
+
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    margin-bottom: 25px;
+
+
+}
+
+/* ========Buttons color============= */
+
+.Home {
+    background-color: rgba(62, 147, 195, 1);
+}
+
+.Feedback {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Season_inquiry {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Users {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.News {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+.Logout {
+    background-color: rgba(47, 59, 65, 1);
+}
+
+
+/* ========Buttons hover color============= */
+
+
+
+
+.sidebar ul li :hover {
+
+    background-color: rgba(62, 147, 195, 1);
+}
+
+/* ======================Blue bar==================== */
+
+.Support {
+    width: 82.4%;
+    height: 47px;
+    position: absolute;
+    left: 270px;
+    top: 155px;
+    background-color: rgba(62, 147, 195, 1);
+    /* text-align: center; */
+    /* line-height: 100px; */
+    flex-shrink: 0;
+    justify-content: left;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 31px;
+    line-height: 57px;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.Passengers {
+    background-color: rgb(226, 14, 14);
+    width: 200px;
+    height: 50px;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    color: white;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+
+}
+
+.Trains {
+    background-color: rgb(18, 185, 232);
+    width: 200px;
+    height: 50px;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 700px;
+    top: 100px;
+    color: white;
+
+}
+
+.Received {
+    background-color: rgb(98, 94, 92);
+    width: 200px;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    color: white;
+}
+
+.Routes1 {
+    background-color: rgb(19, 205, 69);
+    width: 200px;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 700px;
+    top: 5px;
+    color: white;
+}
+
+.Users1 {
+    background-color: rgb(243, 247, 35);
+    width: 200px;
+    padding: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    color: white;
+}
